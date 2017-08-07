@@ -3,18 +3,27 @@
     "https://schema.org/",
     "https://w3id.org/security/v1"
   ],
-  "id": "did:btcr:x5pn-xzsf-qq3x-cmfj/0#peacekeeper-self-signed-claim",
+  "id": "did:btcr:xkrn-xzcr-qqlv-j6sl/0#peacekeeper-self-signed-claim",
   "type": [
     "Credential",
     "Identity",
     "Person"
   ],
-  "issuer": "did:btcr:x5pn-xzsf-qq3x-cmfj/0#did-transaction-key",
+  "issuer": "did:btcr:xkrn-xzcr-qqlv-j6sl/0#did-transaction-key",
   "issued": "2017-08-07",
   "label": "peacekeeper-self-signed-claim",
   "claim": {
     "relationship": "me",
     "alternate-name": "peacekeeper"
+  },
+  "service": {
+    "xdi": "https://xdi03-at.danubeclouds.com/cl/+!:did:btcr:xkrn-xzcr-qqlv-j6sl"
+  },
+  "signature": {
+    "type": "EcdsaKoblitzSignature2016",
+    "created": "2017-08-07T00:00:00Z",
+    "creator": "ecdsa-koblitz-pubkey:024a63c4362772b0fafc51ac02470dae3f8da8a05d90bae9e1ef3f5243180120dd",
+    "signatureValue": "..TODO.."
   }
 }
 
