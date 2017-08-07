@@ -2,6 +2,19 @@
   "@context": [
     "https://schema.org/",
     "https://w3id.org/security/v1"
-  ]
+  ],
+  "id": "did:btcr:x5pn-xzsf-qq3x-cmfj/0#peacekeeper-self-signed-claim",
+  "type": [
+    "Credential",
+    "Identity",
+    "Person"
+  ],
+  "issuer": "did:btcr:x5pn-xzsf-qq3x-cmfj/0#did-transaction-key",
+  "issued": "2017-08-07",
+  "label": "peacekeeper-self-signed-claim",
+  "claim": {
+    "relationship": "me",
+    "alternate-name": "peacekeeper"
+  }
 }
 
