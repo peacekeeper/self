@@ -17,6 +17,7 @@
     "alternate-name": "peacekeeper"
   },
   "service": {
+    "agent": "https://azure.microsoft.com/dif/hub/did:btcr:xkrn-xzcr-qqlv-j6sl",
     "xdi": "https://xdi03-at.danubeclouds.com/cl/+!:did:btcr:xkrn-xzcr-qqlv-j6sl"
   },
   "signature": {
