@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://schema.org/",
-    "https://w3id.org/security/v1"
+    "https://w3id-temp.org/did/v1"
   ],
   "id": "did:btcr:xkrn-xzcr-qqlv-j6sl/0#peacekeeper-self-signed-claim",
   "type": [
@@ -16,10 +16,13 @@
     "relationship": "me",
     "alternate-name": "peacekeeper"
   },
-  "service": {
-    "agent": "https://azure.microsoft.com/dif/hub/did:btcr:xkrn-xzcr-qqlv-j6sl",
-    "xdi": "https://xdi03-at.danubeclouds.com/cl/+!:did:btcr:xkrn-xzcr-qqlv-j6sl"
-  },
+  "service": [{
+    "type": "agent",
+    "serviceEndpoint": "https://azure.microsoft.com/dif/hub/did:btcr:xkrn-xzcr-qqlv-j6sl"
+  },{
+    "type": "xdi",
+    "serviceEndpoint": "https://xdi03-at.danubeclouds.com/cl/+!:did:btcr:xkrn-xzcr-qqlv-j6sl"
+  }],
   "signature": {
     "type": "EcdsaKoblitzSignature2016",
     "created": "2017-08-07T00:00:00Z",
