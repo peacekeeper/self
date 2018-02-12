@@ -16,7 +16,7 @@
     "relationship": "me",
     "alternate-name": "peacekeeper"
   },
-  "services": [{
+  "service": [{
     "type": "agent",
     "serviceEndpoint": "https://azure.microsoft.com/dif/hub/did:btcr:xkrn-xzcr-qqlv-j6sl"
   },{
