@@ -22,6 +22,12 @@
   },{
     "type": "xdi",
     "serviceEndpoint": "https://xdi03-at.danubeclouds.com/cl/+!:did:btcr:xkrn-xzcr-qqlv-j6sl"
+  },{
+    "name": "homepage",
+    "serviceEndpoint": "https://danubetech.com/"
+  },{
+    "name": "projects",
+    "serviceEndpoint": "https://github.com/peacekeeper/blockchain-identity"
   }],
   "signature": {
     "type": "EcdsaKoblitzSignature2016",
