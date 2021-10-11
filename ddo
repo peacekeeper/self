@@ -1,39 +1,13 @@
 {
-  "@context": [
-    "https://schema.org/",
-    "https://w3id.org/did/v1"
-  ],
-  "id": "did:btcr:xkrn-xz7q-q0mx-4cl/0#peacekeeper-self-signed-claim",
-  "type": [
-    "Credential",
-    "Identity",
-    "Person"
-  ],
-  "issuer": "did:btcr:xkrn-xz7q-q0mx-4cl/0#did-transaction-key",
-  "issued": "2017-08-07",
-  "label": "peacekeeper-self-signed-claim",
-  "claim": {
-    "relationship": "me",
-    "alternate-name": "peacekeeper"
-  },
-  "service": [{
-    "type": "agent",
-    "serviceEndpoint": "https://azure.microsoft.com/dif/hub/did:btcr:xkrn-xz7q-q0mx-4cl"
-  },{
-    "type": "xdi",
-    "serviceEndpoint": "https://xdi03-at.danubeclouds.com/cl/+!:did:btcr:xkrn-xz7q-q0mx-4cl"
-  },{
-    "name": "homepage",
-    "serviceEndpoint": "https://danubetech.com/"
-  },{
-    "name": "projects",
-    "serviceEndpoint": "https://github.com/peacekeeper/blockchain-identity"
-  }],
-  "signature": {
-    "type": "EcdsaKoblitzSignature2016",
-    "created": "2017-08-07T00:00:00Z",
-    "creator": "ecdsa-koblitz-pubkey:024a63c4362772b0fafc51ac02470dae3f8da8a05d90bae9e1ef3f5243180120dd",
-    "signatureValue": "..TODO.."
-  }
+	"@context": [
+		"https://www.w3.org/ns/did/v1",
+		"https://w3id.org/security/suites/ed25519-2018/v1"
+	],
+	"id": "did:btcr:xkrn-xz7q-qsye-28pm",
+	"verificationMethod": [{
+		"id": "did:btcr:xkrn-xz7q-qsye-28pm#test-key",
+		"type": "Ed25519VerificationKey2018",
+		"controller": "did:key:z6MkkutmsBLAJeQim8ce64FA9DpUgwh2478ReibYeZcPohKT",
+		"publicKeyMultibase": "z7TdjGw5iy6vFedmwQVHKJ8GUsNRAeDt4xhgcpHeNtUY5"
+	}]
 }
-
