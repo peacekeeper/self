@@ -1,33 +1,13 @@
 {
-  "@context": [
-    "https://schema.org/",
-    "https://w3id.org/did/v1"
-  ],
-  "id": "did:btcr:xs95-wzv8-qqte-jz88/0#peacekeeper-self-signed-claim",
-  "type": [
-    "Credential",
-    "Identity",
-    "Person"
-  ],
-  "issuer": "did:btcr:xs95-wzv8-qqte-jz88/0#did-transaction-key",
-  "issued": "2018-03-15",
-  "label": "peacekeeper-self-signed-claim",
-  "claim": {
-    "relationship": "me",
-    "alternate-name": "peacekeeper"
-  },
-  "service": [{
-    "type": "agent",
-    "serviceEndpoint": "https://azure.microsoft.com/dif/hub/did:btcr:xs95-wzv8-qqte-jz88"
-  },{
-    "type": "xdi",
-    "serviceEndpoint": "https://xdi03-at.danubeclouds.com/cl/=!:did:btcr:xs95-wzv8-qqte-jz88"
-  },{
-    "name": "homepage",
-    "serviceEndpoint": "https://danubetech.com/"
-  },{
-    "name": "projects",
-    "serviceEndpoint": "https://github.com/peacekeeper/blockchain-identity"
-  }]
+	"@context": [
+		"https://www.w3.org/ns/did/v1",
+		"https://w3id.org/security/suites/ed25519-2018/v1"
+	],
+	"id": "did:btcr:xkrn-xz7q-qsye-28pm",
+	"verificationMethod": [{
+		"id": "did:btcr:xkrn-xz7q-qsye-28pm#test-key",
+		"type": "Ed25519VerificationKey2018",
+		"controller": "did:key:z6MkuF13ieLVf57uyrsQW5fVGh8QbbreiSQLU4yuFRCQx2hJ",
+		"publicKeyMultibase": "zFnk18Q64KXdSsN2hpWheRbaQn2aoJZ9yn44yR9EQ2ouv"
+	}]
 }
-
